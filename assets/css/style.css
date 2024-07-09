@@ -1,0 +1,1009 @@
+:root{
+    --fuentePrincipal: 'Rubik','sans-serif' ;
+    --fuentaSecundaria:'Roboto', sans-serif;
+    --color:black;
+}
+p{
+    font-family: 'Roboto';
+}
+::selection {
+    background: rgb(27, 38, 102);
+    color: #fff;
+    text-shadow: none;
+}
+.dropdown-item:active{
+    background-color: #FAFAFA;
+    color: black;
+}
+.carousel-caption{
+    position: absolute;
+    top: 28%;
+    z-index: 200;
+}
+.carousel-control-next{
+    z-index: 200;
+}
+.carousel-control-prev{
+    z-index: 200;
+}
+@media(min-width:982px) {
+    .carousel-inner {
+        height: 100vh;
+    }
+}
+h2{
+    font-family: Rubik ;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #4C4C4C;
+    font-weight: 300;
+    font-family: var(--fuentePrincipal);
+}
+.carousel-caption h2{
+    font-size: 80px;
+
+
+}
+.carousel-caption p{
+    font-size: 20px;
+    color: #fff;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: var(--fuentaSecundaria);
+}
+i:before{
+    margin-left: 0 !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.size_logo{
+width:231px;
+}
+@media(max-width:768px) {
+    .navbar-brand img{
+        width: 70%;
+    }    
+}
+/*Header*/
+@media(min-width:768px) {
+    .h_nav{
+        height: 102px;
+    }
+}
+@media(min-width:768px) {
+    
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-item:hover>.dropdown-menu {
+    display: block;
+  }
+  ul li{
+  list-style-type:none;
+  display: inline;
+  }
+  
+  .navbar-nav .nav-link{display:inline-block;}
+     
+  .ml-auto {display:inline-block!important;}
+  
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+}
+@media(min-width:768px) {
+    .navbar-nav  .nav-link{
+       text-transform: uppercase;
+       font-size: 14px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #4C4C4C !important;
+            font-family: var(--fuentaSecundaria);
+            font-weight: 500;
+    }
+    .dropdown-toggle:after{
+        font-size: 22px;
+        color: rgb(27, 38, 102);
+        vertical-align: 0.1em;
+    }
+    .menu-sticker{
+        position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: auto !important;
+    right: 0;
+    height: 8.5rem;
+    background-color:#fff;
+    transition: all 0.7s;
+    top: 0;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    z-index: 2000;
+    }
+}
+
+@media(max-width:992px) {
+    
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler i:before{
+    font-size: 30px;
+    color: rgb(27, 38, 102);
+}
+
+.navbar-collapse{
+    background-color: rgb(27, 38, 102);
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    padding: 21px 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+.navbar-light .navbar-nav .last_link{
+   border: none;
+
+}
+.dropdown-menu.show{
+    background-color: #3C98AD;
+}
+.dropdown-menu a{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar{
+padding: 0;
+}
+.nav_p{
+    padding: .5rem 1rem;
+    width: 100%;
+}
+}
+
+
+/*Clientes Slider*/
+
+.slidercarusel{
+    margin: auto;
+  }
+  .slidercarusel li{
+    text-align: center;
+  }
+.slider1 li{
+    margin: auto;
+}
+.slide h2{
+    color: #fff;
+}
+.boxes h4{
+    color: #fff;
+}
+@media(min-width:768px) {
+    .boxes .box{
+        transition: all 0.2s ease-out;
+    }
+    .boxes .box:hover{
+        margin-top: -15px;
+        cursor: pointer;
+        position: relative;
+        
+    }
+}
+.carousel-inner{
+    position: relative;
+}
+@media(min-width:768px) {
+    .carousel-inner:before{
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .3);
+        z-index: 100;
+    }
+}
+.box{
+    height: 200px;
+    color: #fff;
+}
+@media(min-width:768px) {
+    .box{
+        position: relative;
+        top: -100px;
+        z-index: 200;
+    }
+}
+.boxes  i:before{
+    font-size: 100px;
+    margin-left: 0;
+}
+.boxes .row .row{
+    padding: 40px;
+}
+.boxes .box:before{
+    position:absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+    left:0;
+    background-color:rgba(0,0,0,0.25);
+}
+.boxes .box:first-of-type{
+    background-image:url(../img/radiografiase/top2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.boxes .box:nth-child(2){
+        background-image:url(../img/implantes/implante2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.boxes .box:nth-child(3) {
+    background-image: url('../img/impresion/imagen4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.texto_nosotros{
+    margin-top: 50px;
+    color: #868686;
+    font-size: 18px;
+}
+@media(min-width:768px) {
+    .texto_nosotros{
+        margin-top: 0px;
+    }   
+}
+@media(min-width:768px) {
+    .seccion_top{
+        position: relative;
+        top: -100px;
+    }
+}
+.img_team{
+    width: 128px;
+}
+.staff_image{
+    max-width: 128px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.person{
+    padding: 0 21px;
+}
+/*Home Nosotros*/
+.title_nosotros,.titulo_ventaja,.titulo_historia{
+    font-size: 48px;
+
+}
+/*Ventajas Home*/
+.boxes_ventajas .row i:before{
+    font-size: 52px;
+}
+@media(min-width:768px) {
+    .boxes{
+        height: 190px;
+    }
+}
+.boxes_ventajas .row h5{
+    font-size: 25px;
+}
+.boxes_ventajas .row .text{
+    padding-right: 10px;
+}
+.seccion_ventajas{
+    background-color: rgb(27, 38, 102) ;
+    color: #fff;
+}
+.titulo_ventajas{
+    color: #fff;
+    text-align: left !important;
+    font-size: 48px;
+}
+.seccion_ventajas h5{
+    color: #fff;
+}
+.seccion_nosotros .story_img{
+    width: 100%;    
+}
+.story_img{
+    width: 48%;
+    display: inline-block;
+    padding: 13px;
+    background: #ffffff;
+    border: 1px solid #e7ebee;
+}
+/*Seccion Historias Home*/
+.seccion_historias .story_img_first{
+    margin-right: 2%;
+}
+.seccion_historias .story-content .story__title{
+    font-size: 18px;
+}
+
+.seccion_historias .story-content ul li{
+    font-size: 18px;
+    text-align: initial;
+}
+.titulo_historia {
+    text-align: left !important;
+}
+@media(min-width:768px) {
+    .seccion_historias .story-content ul li{
+        font-size: 18px;
+        text-align: left;
+        display: block;
+    }   
+}
+.seccion_historias .story-content p{
+    font-size: 18px;
+}
+.seccion_historias i:before{
+    color: #F57E57;
+    text-align: left;
+    margin-right: 10px;
+}
+.seccion_testimoniales .titulo_testimoniales{
+    font-size: 48px;
+    text-align: left;
+}
+
+.tab{
+    padding: 40px;
+    border: 1px solid #E4E4E4;
+}
+.tab p{
+    font-size: 14px;
+}
+.tab .testimonial_author{
+    font-size: 14px;
+}
+.tab .testimonial_posicion{
+    font-size: 12px;
+}
+.testimonios .tab:before{
+    content: "\f12b";
+    font-family: Flaticon;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+    margin: 0 0 0 -20px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #E4E4E4;
+    background: #fff;
+    color: #F57E57;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.seccion_team h3{
+    font-size: 48px;
+    color: #fff;
+}
+.seccion_team{
+    background-color: rgb(27, 38, 102) ;
+    padding: 80px 0;
+    color: #fff;
+}
+.seccion_asociados h3{
+    font-size: 48px;
+}
+footer{
+    background-color: rgb(27, 38, 102);
+}
+footer p{
+    color: #ffffff;
+}
+footer h4{
+    color: #fff;
+}
+footer a{
+    color: rgb(27, 38, 102);
+}
+footer ul li{
+    color: #fff;
+}
+footer .navbar-nav .nav-link{
+    color: #fff;
+}
+footer .navbar-nav .nav-link:hover{
+    
+color:#00bb2d;
+}
+/*Nosotros*/
+.banner_n{
+    background-image: url(../img/Nosotros-img.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_tomografia{
+        background-image: url(../img/tomografia_banner.png);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+    position:relative;
+}
+.banner_tomografia:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+}
+
+
+.banner_radio_e{
+        background-image: url(../img/radio_e.jpg);
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+    height: 500px;
+    position:relative;
+}
+.banner_radio_e:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+}
+
+
+
+.banner_r_i{
+        background-image: url(../img/banner_r_i.JPG);
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+    height: 500px;
+    position:relative;
+}
+.banner_r_i:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+}
+
+
+
+.banner_c_c{
+        background-image: url(../img/banner_c_c.jpg);
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+    height: 500px;
+    position:relative;
+}
+.banner_c_c:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+}
+
+.banner_l_d{
+        background-image: url(../img/laboratorio-dental.jpg);
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+    height: 500px;
+    position:relative;
+}
+.banner_l_d:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+}
+
+
+
+
+
+
+.title_banner{
+    z-index:1;
+}
+
+.title_banner_n{
+    font-size: 68px;
+    color: #fff;
+ 
+}
+.title_contenido{
+    font-size: 36px;
+    font-weight: 500;
+    color: #4C6575;
+}
+.desc_contenido{
+    font-size: 18px;
+    color: #868686;
+}
+.contenido_two ul li{
+    font-size: 18px;
+    color: #868686;
+    padding: 0 0 0 42px;
+    margin: 0 0 12px;
+    position: relative;
+    display: block;
+}
+.contenido_two ul li:before{
+    content: "\f10f";
+
+    font-family: Flaticon;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+    font-size: 19px;
+    left: 7px;
+    position: absolute;
+    top: 6px;
+    color: #F57E57;
+}
+/*Team*/
+.box_team{
+    border: 1.5px solid #E4E4E4;
+    border-top: 5px solid rgb(27, 38, 102);
+}
+.box_team .author{
+    font-size: 18px;
+    color: #4C4C4C;
+}
+.box_team .cargo{
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.box_team .share i{
+    color: #B2B2B2;
+}
+.box_team .share a{
+    text-decoration: none;
+    padding: 20px 0;
+}
+.box_team .share{
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+
+}
+@media(max-width:768px) {
+    .box_team .share{
+        margin-right: 0;
+    margin-left: 0;
+    }
+}
+/*Testimonios*/
+
+.testimonios .tab p{
+    font-size: 18px;
+    color: #868686;
+}
+.tab{
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.tab:hover{
+    border-color: rgb(27, 38, 102);
+    cursor: pointer;
+}
+.testimonios .tab{
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.testimonios .tab:hover{
+    border-color: rgb(27, 38, 102);
+    cursor: pointer;
+}
+.testimonios .testimonial_author{
+    font-size: 14px;
+}
+@media(max-width:768px) {
+    .testimonios .box_test{
+        margin-bottom: 50px;
+    }
+}
+.testimonios .testimonial_posicion{
+    color: #C2C2C2;
+}
+.card-header{
+    background-color: rgb(27, 38, 102);
+}
+.card-header button{
+    color: #fff;
+}
+.card-header button:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.card-header button:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+
+/*Contacto*/
+.margin{
+    margin: 0px 0px 40px 0px;
+}
+.fondo-contacto{
+    background-image: url(../img/edicifios.jpg);
+    background-size: cover;
+    
+    position: absolute;
+    width: 100%;
+    
+}
+.Inicio-link{
+    text-decoration: none;
+    color:white;
+}
+.h1-fondo{
+    text-align: left;
+    font-size: 60px;
+    color: #ffff;
+    margin: 0 0 30px;
+}
+
+.card1{
+    border:4px solid rgb(27, 38, 102);
+}
+
+
+
+
+
+.aside{
+    max-width: 300px;
+    
+    padding: 50px 50px 50px;
+}
+#mapid { 
+    height: 100%; 
+    width: 100%;
+}
+
+.escribir{
+    width: 100%;
+    min-width: 280px;
+}
+
+input{
+    border: 0;
+    border-bottom: 2px solid darkgrey;;
+}
+input:focus{
+   outline: none;
+}
+textarea{
+    border: 0.5px solid;
+    resize: none;
+}
+textarea:focus{
+   outline: none !important;
+    box-shadow: none !important;
+    border-color: #495057 !important;
+}
+@media(max-width: 720px){
+    .h1-fondo{
+        text-align: left;
+        font-size: 30px;
+        color: #ffff;
+        margin: 50px 0 50px;
+    }
+
+    .card1{
+        margin: 50px 0 30px;
+        border:4px solid rgb(27, 38, 102);
+    }
+    .card2{
+        min-width: 300px;
+    }
+
+    .aside{
+        max-width: 100%;
+        
+        padding: 50px 42px 50px;
+    }
+    #mapid{
+    
+    height: 460px; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    
+}
+.seccion_contacto form .btn-primary{
+    background-color: rgb(27, 38, 102);
+    outline: none;
+    border: none;
+}
+.stong{
+    font-weight: 600;
+}
+.contenido_single .card-body li{
+    display: block;
+}
+.contenido_single .card-body i{
+    color: rgb(27, 38, 102);
+}
+.footer-home{
+  /*  margin-top:-110px;*/
+}
+
+@media (max-width:500px){
+    .footer-home{
+    margin-top:0px;
+}
+}
+
+
+.section{
+    height: 30vh;
+}
+.fondo{
+    background-image: url(../img/servicios.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    
+}
+.Inicio-link{
+    text-decoration: none;
+    color:white;
+}
+
+.h1-fondo{
+    text-align: left;
+    font-size: 60px;
+    color: #ffff;
+    margin: 0 0 30px;
+}
+
+.margin{
+    margin: 0px 0px 40px 0px;
+}
+
+.tarjeta-servicio {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+
+
+  }
+
+
+
+.laboratorio,.diagnostico{
+    cursor: pointer;
+}
+
+
+@media(max-width: 720px){
+    .h1-fondo{
+        text-align: left;
+        font-size: 30px;
+        color: #ffff;
+        margin: 50px 0 0px;
+    }
+}   
+
+
+.seccion_more_info i:before{
+    font-size: 80px;
+}
+.seccion_more_info h3{
+    font-size: 20px;
+}
+.seccion_more_info a{
+    padding:10px 20px;
+    background-color: rgb(27, 38, 102);
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.download{
+    background-color: rgba(27, 38, 102,.1);
+    padding: 5px 0;
+}
+.download button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+  
+}
+.download button::after{
+    border: none;
+    content: "\f13b";
+    font-family: "Flaticon";
+    font-size: initial;
+    position: relative;
+    top: 4px;
+}
+
+
+.banner_f{
+    background-image: url(../img/banner-foto-cli.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_s{
+    background-image: url(../img/banner-nuevos-s.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_lb{
+    background-image: url(../img/banner-labo.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_cb{
+    background-image: url(../img/banner-consu.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_cf{
+    background-image: url(../img/banner-confi.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.banner_test{
+    background-image: url(../img/banner-test.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+
+.banner_contac{
+    background-image: url(../img/bannercontacto.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+
+.banner_laboi{
+    background-image: url(../img/banner_labo_i.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+
+.banner_diagi{
+    background-image: url(../img/banner_diag_i.jpg);
+    height: 500px;
+      background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+}
+.seccion_more_info{
+    background-color:#9aafcc;
+    
+}
+.seccion_more_info .row,.seccion_more_info h3{
+    color:#fff;
+}
+.seccion_nosotros {
+
+}
+.navbar-brand img{
+    max-width:120% !important;
+    
+    
+}
+.boxes a{
+    color:#fff;
+    
+}
+
+@media (min-width:992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0.5rem !important;
+    padding-left: .1rem !important;
+    }
+    
+}
+
+
+@media (min-width:992px){
+    .navbar .container{
+        padding-right: 0;
+    }
+    
+}
+
